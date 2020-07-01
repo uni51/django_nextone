@@ -136,6 +136,8 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
+MEDIA_URL = '/media/'
+
 # ロギング設定
 LOGGING = {
     # 固定
